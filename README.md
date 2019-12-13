@@ -1,7 +1,7 @@
 # AutoML Class
 
 ## Le minimum de votre class AutoML  :
-** -prétraitement: **
+###- prétraitement: 
    reduction de la taille de votre dataset (float64 => float32, object => category etc.)
    - sur les variables catégoriques :
         - gestion des nan
@@ -9,11 +9,11 @@
     - sur les variables numériques:
          - gestion des nan
         - normalisation
-** prediction :**
+###- prediction :
     - détecter automatiquement si c'est un problème de classification ou de régression
     - en fonction, utiliser les algos appropriés
     -  ressortir les performances du modèle
-> get_ypred('test.csv') :
->      return ypred
+  get_ypred('test.csv') :
+      return ypred
 
-** save_ypred('test.csv') => sauvegarde le fichier de prediction prêt à être soumis sur kaggle **
+###save_ypred('test.csv') => sauvegarde le fichier de prediction prêt à être soumis sur kaggle
